@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { X, Mail, Gift, TrendingUp } from 'lucide-react';
-import { api } from './utils/api';
+import { api } from '../utils/api';
 
 const NewsletterModal = () => {
   const [isOpen, setIsOpen] = useState(false);
