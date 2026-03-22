@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Plus, CheckCircle, LinkIcon, ShoppingBag, Package, Lightbulb } from 'lucide-react';
-import { api } from '@/utils/api';
+import { api } from './utils/api';
 
 const SellPage = () => {
   const [selectedType, setSelectedType] = useState(null);
