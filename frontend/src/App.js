@@ -1,16 +1,16 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import "@/App.css";
-import "@/index.css";
+import "./App.css";
+import "./index.css";
 
 // Pages
-import HomePage from "@/pages/HomePage";
-import MarketplacePage from "@/pages/MarketplacePage";
-import AffiliatePage from "@/pages/AffiliatePage";
-import DropshipPage from "@/pages/DropshipPage";
-import IdeasPage from "@/pages/IdeasPage";
-import SellPage from "@/pages/SellPage";
-import AboutPage from "@/pages/AboutPage";
-import BlogPage from "@/pages/BlogPage";
+import HomePage from "./pages/HomePage";
+import MarketplacePage from "./pages/MarketplacePage";
+import AffiliatePage from "./pages/AffiliatePage";
+import DropshipPage from "./pages/DropshipPage";
+import IdeasPage from "./pages/IdeasPage";
+import SellPage from "./pages/SellPage";
+import AboutPage from "./pages/AboutPage";
+import BlogPage from "./pages/BlogPage";
 
 // Layout
 import Navbar from "@/components/Navbar";
