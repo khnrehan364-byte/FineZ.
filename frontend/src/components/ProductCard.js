@@ -3,6 +3,7 @@ import { api } from '../utils/api';
 import SocialShare from '../components/SocialShare';
 
 
+
 const ProductCard = ({ product }) => {
   const handleClick = async () => {
     try {
