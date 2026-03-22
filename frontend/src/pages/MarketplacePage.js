@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Search, ShoppingCart } from 'lucide-react';
-import ProductCard from './components/ProductCard';
-import { api } from './utils/api';
+import ProductCard from '../components/ProductCard';
+import { api } from '../utils/api';
 
 const MarketplacePage = () => {
   const [products, setProducts] = useState([]);
