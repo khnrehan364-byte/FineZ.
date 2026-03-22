@@ -13,8 +13,8 @@ import AboutPage from "./pages/AboutPage";
 import BlogPage from "./pages/BlogPage";
 
 // Layout
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
