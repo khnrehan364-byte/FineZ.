@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import "@/App.css";
 import "@/index.css";
 
@@ -18,23 +18,26 @@ import Footer from "@/components/Footer";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="min-h-screen bg-[#0F172A]">
+    <Router>
+      <div className="min-h-screen bg-[#0f172a] text-white">
+        
         <Navbar />
+
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/marketplace" element={<MarketplacePage />} />
           <Route path="/affiliate" element={<AffiliatePage />} />
           <Route path="/dropship" element={<DropshipPage />} />
-          <Route path="/ideas" element={<IdeasPage />} />
-          <Route path="/sell" element={<SellPage />} />
+          <Route path="/earning" element={<EarningPage />} />
+          <Route path="/skills" element={<SkillPage />} />
+          <Route path="/reviews" element={<ReviewPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/blog" element={<BlogPage />} />
         </Routes>
+
         <Footer />
+
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
-
-export default App;
