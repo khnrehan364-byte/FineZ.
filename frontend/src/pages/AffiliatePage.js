@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Search, Link as LinkIcon } from 'lucide-react';
-import ProductCard from './components/ProductCard';
+import ProductCard from '../components/ProductCard';
 import { api } from './utils/api';
 
 const AffiliatePage = () => {
