@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Search, TrendingUp, Zap, Package, Lightbulb, ShoppingCart, Link as LinkIcon, ArrowUpDown } from 'lucide-react';
-import ProductCard from './components/ProductCard';
-import NewsletterModal from './components/NewsletterModal';
-import WhatsAppButton from './components/WhatsAppButton';
-import { api } from './utils/api';
+import ProductCard from '../components/ProductCard';
+import NewsletterModal from '../components/NewsletterModal';
+import WhatsAppButton from '../components/WhatsAppButton';
+import { api } from '../utils/api';
 
 const HomePage = () => {
   const [products, setProducts] = useState([]);
